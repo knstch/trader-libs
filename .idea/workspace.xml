@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355b090a-b2c9-4790-92d3-3cb97150a2df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cron/cron.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron/cron.go" beforeDir="false" afterPath="$PROJECT_DIR$/cron/cron.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

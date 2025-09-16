@@ -23,4 +23,6 @@ func StartCronRunner(ctx context.Context, logger *log.Logger, crons ...Cron) err
 			return err
 		}
 	}
+
+	return nil
 }
