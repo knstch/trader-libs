@@ -48,3 +48,7 @@ func GetLiq1mKey(symbol string) string {
 func GetLastLiq1mKey(symbol string) string {
 	return fmt.Sprintf("mkt:last:liqs:1m:%s", symbol)
 }
+
+func GetCoinGeckoKey() string {
+	return "mkt:map:cg-token-id"
+}
