@@ -16,6 +16,10 @@ func StartCronRunner(ctx context.Context, logger *log.Logger, crons ...Cron) err
 	c := cron.New()
 
 	for _, cron := range crons {
+		if err := cron.Run(ctx); err != nil {
+			return err
+		}
+
 		if _, err := c.AddFunc(cron.GetInterval(), func() {
 			err := cron.Run(ctx)
 			logger.Error("error running cron", err, log.AddMessage("cron", cron.GetName()))
